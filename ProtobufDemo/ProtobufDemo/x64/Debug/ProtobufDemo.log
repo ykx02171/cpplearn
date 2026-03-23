@@ -1,0 +1,254 @@
+﻿  msg.pb.cc
+E:\cppsoft\protoc\include\google\protobuf\stubs\status.h(97,15): warning C4251: “google::protobuf::util::status_internal::Status::error_message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::util::status_internal::Status”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\stubs\logging.h(100,15): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\io\coded_stream.h(1275,28): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic(2764,33):
+      参见“std::atomic<bool>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(401,23): warning C4251: “google::protobuf::internal::SerialArena::space_allocated_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“google::protobuf::internal::SerialArena”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic(2776,35):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(532,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::alloc_policy_”: class“google::protobuf::internal::TaggedAllocationPolicyPtr”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(123,7):
+      参见“google::protobuf::internal::TaggedAllocationPolicyPtr”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(537,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::threads_”: struct“std::atomic<google::protobuf::internal::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(537,8):
+      参见“std::atomic<google::protobuf::internal::SerialArena *>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(538,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::hint_”: struct“std::atomic<google::protobuf::internal::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(537,8):
+      参见“std::atomic<google::protobuf::internal::SerialArena *>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(660,30): warning C4251: “google::protobuf::internal::ThreadSafeArena::arena_stats_”: class“google::protobuf::internal::ThreadSafeArenaStatsHandle”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\arenaz_sampler.h(159,7):
+      参见“google::protobuf::internal::ThreadSafeArenaStatsHandle”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arenastring.h(82,43): warning C4251: “google::protobuf::internal::LazyString::inited_”: struct“std::atomic<const std::string *>”需要有 dll 接口由 class“google::protobuf::internal::LazyString”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\arenastring.h(82,16):
+      参见“std::atomic<const std::string *>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arenastring.h(367,19): warning C4251: “google::protobuf::internal::ArenaStringPtr::tagged_ptr_”: class“google::protobuf::internal::TaggedStringPtr”需要有 dll 接口由 struct“google::protobuf::internal::ArenaStringPtr”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\arenastring.h(97,7):
+      参见“google::protobuf::internal::TaggedStringPtr”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\metadata_lite.h(307,15): warning C4251: “google::protobuf::internal::LiteUnknownFieldSetter::buffer_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LiteUnknownFieldSetter”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\generated_message_util.h(194,20): warning C4251: “google::protobuf::internal::CachedSize::size_”: struct“std::atomic<int>”需要有 dll 接口由 class“google::protobuf::internal::CachedSize”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic(2771,35):
+      参见“std::atomic<int>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\stubs\mutex.h(136,40): warning C4251: “google::protobuf::internal::WrappedMutex::mu_”: class“google::protobuf::internal::CallOnceInitializedMutex<std::mutex>”需要有 dll 接口由 class“google::protobuf::internal::WrappedMutex”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\stubs\mutex.h(136,3):
+      参见“google::protobuf::internal::CallOnceInitializedMutex<std::mutex>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2063,27): warning C4251: “google::protobuf::DescriptorPool::tables_”: class“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2063,8):
+      参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2073,31): warning C4251: “google::protobuf::DescriptorPool::unused_import_track_files_”: class“std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2073,8):
+      参见“std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(247,30): warning C4251: “google::protobuf::io::CopyingInputStreamAdaptor::buffer_”: class“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口由 class“google::protobuf::io::CopyingInputStreamAdaptor”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(247,8):
+      参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(338,30): warning C4251: “google::protobuf::io::CopyingOutputStreamAdaptor::buffer_”: class“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口由 class“google::protobuf::io::CopyingOutputStreamAdaptor”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(247,8):
+      参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\unknown_field_set.h(211,29): warning C4251: “google::protobuf::UnknownFieldSet::fields_”: class“std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>”需要有 dll 接口由 class“google::protobuf::UnknownFieldSet”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\unknown_field_set.h(211,8):
+      参见“std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1057,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int32_t_”: class“google::protobuf::RepeatedField<int32_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1193,78):
+      参见“google::protobuf::RepeatedField<int32_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1058,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int64_t_”: class“google::protobuf::RepeatedField<int64_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1195,78):
+      参见“google::protobuf::RepeatedField<int64_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1059,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint32_t_”: class“google::protobuf::RepeatedField<uint32_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1194,79):
+      参见“google::protobuf::RepeatedField<uint32_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1060,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint64_t_”: class“google::protobuf::RepeatedField<uint64_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1196,79):
+      参见“google::protobuf::RepeatedField<uint64_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1061,25): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_double_”: class“google::protobuf::RepeatedField<double>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1198,77):
+      参见“google::protobuf::RepeatedField<double>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1062,24): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_float_”: class“google::protobuf::RepeatedField<float>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1197,76):
+      参见“google::protobuf::RepeatedField<float>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1063,23): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_bool_”: class“google::protobuf::RepeatedField<bool>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“msg.pb.cc”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1192,75):
+      参见“google::protobuf::RepeatedField<bool>”的声明
+  
+  ProtobufDemo.cpp
+E:\cppsoft\protoc\include\google\protobuf\stubs\status.h(97,15): warning C4251: “google::protobuf::util::status_internal::Status::error_message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::util::status_internal::Status”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\stubs\logging.h(100,15): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\io\coded_stream.h(1275,28): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic(2764,33):
+      参见“std::atomic<bool>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(401,23): warning C4251: “google::protobuf::internal::SerialArena::space_allocated_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“google::protobuf::internal::SerialArena”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic(2776,35):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(532,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::alloc_policy_”: class“google::protobuf::internal::TaggedAllocationPolicyPtr”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(123,7):
+      参见“google::protobuf::internal::TaggedAllocationPolicyPtr”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(537,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::threads_”: struct“std::atomic<google::protobuf::internal::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(537,8):
+      参见“std::atomic<google::protobuf::internal::SerialArena *>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(538,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::hint_”: struct“std::atomic<google::protobuf::internal::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(537,8):
+      参见“std::atomic<google::protobuf::internal::SerialArena *>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arena_impl.h(660,30): warning C4251: “google::protobuf::internal::ThreadSafeArena::arena_stats_”: class“google::protobuf::internal::ThreadSafeArenaStatsHandle”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\arenaz_sampler.h(159,7):
+      参见“google::protobuf::internal::ThreadSafeArenaStatsHandle”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arenastring.h(82,43): warning C4251: “google::protobuf::internal::LazyString::inited_”: struct“std::atomic<const std::string *>”需要有 dll 接口由 class“google::protobuf::internal::LazyString”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\arenastring.h(82,16):
+      参见“std::atomic<const std::string *>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\arenastring.h(367,19): warning C4251: “google::protobuf::internal::ArenaStringPtr::tagged_ptr_”: class“google::protobuf::internal::TaggedStringPtr”需要有 dll 接口由 struct“google::protobuf::internal::ArenaStringPtr”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\arenastring.h(97,7):
+      参见“google::protobuf::internal::TaggedStringPtr”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\metadata_lite.h(307,15): warning C4251: “google::protobuf::internal::LiteUnknownFieldSetter::buffer_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LiteUnknownFieldSetter”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\generated_message_util.h(194,20): warning C4251: “google::protobuf::internal::CachedSize::size_”: struct“std::atomic<int>”需要有 dll 接口由 class“google::protobuf::internal::CachedSize”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\atomic(2771,35):
+      参见“std::atomic<int>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\stubs\mutex.h(136,40): warning C4251: “google::protobuf::internal::WrappedMutex::mu_”: class“google::protobuf::internal::CallOnceInitializedMutex<std::mutex>”需要有 dll 接口由 class“google::protobuf::internal::WrappedMutex”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\stubs\mutex.h(136,3):
+      参见“google::protobuf::internal::CallOnceInitializedMutex<std::mutex>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2063,27): warning C4251: “google::protobuf::DescriptorPool::tables_”: class“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2063,8):
+      参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2073,31): warning C4251: “google::protobuf::DescriptorPool::unused_import_track_files_”: class“std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\descriptor.h(2073,8):
+      参见“std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(247,30): warning C4251: “google::protobuf::io::CopyingInputStreamAdaptor::buffer_”: class“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口由 class“google::protobuf::io::CopyingInputStreamAdaptor”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(247,8):
+      参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(338,30): warning C4251: “google::protobuf::io::CopyingOutputStreamAdaptor::buffer_”: class“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口由 class“google::protobuf::io::CopyingOutputStreamAdaptor”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\io\zero_copy_stream_impl_lite.h(247,8):
+      参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\unknown_field_set.h(211,29): warning C4251: “google::protobuf::UnknownFieldSet::fields_”: class“std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>”需要有 dll 接口由 class“google::protobuf::UnknownFieldSet”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\unknown_field_set.h(211,8):
+      参见“std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1057,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int32_t_”: class“google::protobuf::RepeatedField<int32_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1193,78):
+      参见“google::protobuf::RepeatedField<int32_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1058,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int64_t_”: class“google::protobuf::RepeatedField<int64_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1195,78):
+      参见“google::protobuf::RepeatedField<int64_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1059,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint32_t_”: class“google::protobuf::RepeatedField<uint32_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1194,79):
+      参见“google::protobuf::RepeatedField<uint32_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1060,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint64_t_”: class“google::protobuf::RepeatedField<uint64_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1196,79):
+      参见“google::protobuf::RepeatedField<uint64_t>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1061,25): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_double_”: class“google::protobuf::RepeatedField<double>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1198,77):
+      参见“google::protobuf::RepeatedField<double>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1062,24): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_float_”: class“google::protobuf::RepeatedField<float>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1197,76):
+      参见“google::protobuf::RepeatedField<float>”的声明
+  
+E:\cppsoft\protoc\include\google\protobuf\extension_set.h(1063,23): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_bool_”: class“google::protobuf::RepeatedField<bool>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用 
+  (编译源文件“ProtobufDemo.cpp”)
+      E:\cppsoft\protoc\include\google\protobuf\repeated_field.h(1192,75):
+      参见“google::protobuf::RepeatedField<bool>”的声明
+  
+  正在生成代码...
+  ProtobufDemo.vcxproj -> E:\cpplearn\ProtobufDemo\x64\Debug\ProtobufDemo.exe
